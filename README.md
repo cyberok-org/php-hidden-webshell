@@ -7,3 +7,9 @@ Repository structure:
 - "docker/etc" directory -- contains PHP/httpd config files and web-shell POC
 - "docker/Dockerfile" -- file to create Docker image
 - "docker/main.sh" -- script to automate Docker image creation, run and test web-shell
+
+Run this commands to do everything:
+- docker/main.sh build	-- build docker image
+- docker/main.sh run 		-- run docker image
+- docker/main.sh inject	-- inject code into web-server
+- docker/main.sh test  	-- use web-shell from harmless script
