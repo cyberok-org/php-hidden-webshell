@@ -6,4 +6,4 @@ Repository structure:
 - "dev/generate.sh" -- script for creating and building PHP extension
 - "docker/etc" directory -- contains PHP/httpd config files and web-shell POC
 - "docker/Dockerfile" -- file to create Docker image
-- "docker/run.sh" -- script to automate Docker image creation, run and test web-shell
+- "docker/main.sh" -- script to automate Docker image creation, run and test web-shell
